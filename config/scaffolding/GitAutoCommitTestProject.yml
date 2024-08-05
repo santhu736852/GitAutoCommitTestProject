@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/santhu736852/GitAutoCommitTestProject
   gitUsername: santhu736852
   gitBranch: main
+services:
+- serviceName: project.gitautocommittest.integrations:TestAutoCommitFalse
+  packages:
+  - name: GitAutoCommitTestProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1120
